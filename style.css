@@ -5983,7 +5983,7 @@ margin-top: 37px;
 
 .saasgenie {
   width: 100% !important;
-  display: flex;
+  display: block;
   justify-content: center;
   margin: 15px 0;
   border-radius: 12px;
@@ -6049,7 +6049,7 @@ margin-top: 37px;
 
 
 .saasgenie-left {
-  width: 45% !important;
+  width: 100% !important;
   justify-content: center;
   margin: 15px 0;
   border-radius: 12px;
@@ -6096,7 +6096,7 @@ margin-top: 37px;
 }
 
 .saasgenie-right {
-  width: 55% !important;
+  width: 100% !important;
   justify-content: center;
   margin: 15px 0;
   border-radius: 12px;
