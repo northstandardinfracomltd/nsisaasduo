@@ -187,6 +187,13 @@
     format("opentype");
 }
 
+@font-face {
+  font-family: genie19;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/30c8ea12425640486856.woff2?v=1681548070968")
+    format("opentype");
+}
+
 /* SAOECOM */
 .btn--remix {
   font-family: HK Grotesk;
