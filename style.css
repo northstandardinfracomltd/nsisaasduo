@@ -8163,3 +8163,32 @@ margin-bottom: 30px !important;
   margin-bottom: 0px;
   margin-left: 20px;
 }
+
+
+
+
+.directory {
+background: white; 
+max-width: 900px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 12px;
+}
+
+.itemdirectory {
+background: grey; 
+display: flex;
+}
+
+
+.itemdirectory-left {
+width: 50%;
+text-align: left;
+display: flex;
+}
+
+.itemdirectory-right {
+width: 50%;
+text-align: right;
+}
