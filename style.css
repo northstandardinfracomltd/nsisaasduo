@@ -1550,7 +1550,6 @@ footer {
 }
 
 .main-nav {
-    position: fixed;
     display: flex;
     box-sizing: border-box;
     padding: 0px;
@@ -7040,15 +7039,13 @@ margin-top: 37px;
 }
 
 .mural {
-  background: #2c2447;
-  background-blend-mode: normal, normal;
+  background: linear-gradient(180deg, rgb(43 37 70), rgb(24 42 78));
   color: rgb(255, 255, 255);
 }
 
 
 .denzudfnzeufzebfuebzfuezfbeufbef {
-  background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% /
-    auto repeat scroll padding-box border-box rgb(82, 67, 170);
+  background: linear-gradient(180deg, rgb(43 37 70), rgb(24 42 78));
   background-blend-mode: normal, normal;
   color: rgb(255, 255, 255);
 }
