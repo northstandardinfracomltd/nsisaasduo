@@ -8169,7 +8169,7 @@ margin-bottom: 30px !important;
 
 .directory {
 background: white; 
-max-width: 900px;
+max-width: 850px;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -8186,6 +8186,9 @@ display: flex;
 width: 50%;
 text-align: left;
 display: flex;
+margin-top: auto;
+margin-bottom: auto;
+padding-left: 40px;
 }
 
 .itemdirectory-right {
