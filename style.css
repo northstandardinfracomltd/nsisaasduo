@@ -1485,7 +1485,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   margin: 0px !important;
-  background: #2d333b !important;
+  background: #2b2546 !important;
 }
 
 /* STRUCTURE */
@@ -1561,7 +1561,7 @@ footer {
     justify-content: space-between;
     background: #2b2546;
     z-index: 5;
-    border-bottom: 1px solid #3b325c;
+    border-bottom: 0px solid #3b325c;
 }
 
 
@@ -2171,7 +2171,7 @@ purpleblockswww2001 {
 
 .btn2 {
   border: 1px solid #414762 !important;
-  
+  border-left: 0px solid #2e3349 !important;
   border-radius: 0px 0px 0px 0px !important;
   margin-right: -2px !important;
   text-decoration: none !important;
