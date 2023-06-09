@@ -2127,12 +2127,12 @@ purpleblockswww2001 {
 .btn1 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border: 1px #316dca;
+  border: 1px #1f6feb;
   border-radius: 8px 0px 0px 8px;
   margin-right: -2px;
   text-decoration: none;
-  color: #cdd9e5 !important;
-  background: #316dca !important;
+  color: #e9f2ff !important;
+  background: #1f6feb !important;
   font-size: 16px !important;
   height: 41px !important;
   padding-top: 11px !important;
@@ -5944,10 +5944,13 @@ margin-top: 37px;
 
 
 .targetintitate {
-  width: 90% !important;
-  margin-left: 7%;
-  margin-bottom: -40px;
-  margin-top: 10px;
+    width: 90% !important;
+    max-width: 950px;
+    margin-left: 10%;
+    margin-bottom: -40px;
+    margin-top: 10px;
+    margin-right: 10%;
+    opacity: 0.1;
 }
 
 
@@ -6672,11 +6675,9 @@ margin-top: 37px;
 
 
 .ficus3 {
-  text-align: left;
-  padding-right: 20px;
-  padding-top: 21px;
-  padding-bottom: 20px;
-  margin-left: 10%;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 15px;
 }
 
 
