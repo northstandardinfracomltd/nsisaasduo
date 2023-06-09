@@ -5992,6 +5992,7 @@ margin-top: 37px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 @media (min-width: 820px) and (max-width: 1166px) {
@@ -6158,16 +6159,17 @@ margin-top: 37px;
 
 .geniepost {
   text-decoration: none;
-  font-size: 55px !important;
+  font-size: 77px !important;
   cursor: default !important;
   font-family: "genie18" !important;
   color: rgb(255, 255, 255) !important;
-  line-height: 1.1;
+  line-height: 1.3 !important;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 25px;
   margin-bottom: 30px;
   line-height: 62px;
+  text-align: center !important
 }
 
 
@@ -6258,10 +6260,11 @@ margin-top: 37px;
   font-family: "genie9" !important;
   color: rgb(255, 255, 255) !important;
   line-height: 1.6;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
   margin-top: 33px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 
@@ -6719,6 +6722,7 @@ margin-top: 37px;
   margin-top: -16px;
   padding-top: 15px;
   margin-bottom: -25px;
+      border-top: solid 1px #1e3462;
 }
 
 
