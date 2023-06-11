@@ -4941,7 +4941,7 @@ input[type="text"] {
     background-color: #161b22 !important;
     font-family: "Saoecom2font" !important;
     color: #adbac7 !important;
-    margin-top: 29px;
+    margin-top: 18px;
     margin-bottom: 15px;
     height: 52px;
     transition: transform 0s;
@@ -4953,6 +4953,13 @@ font-family: "genie9" !important;
     color: #5e656b66 !important;
   letter-spacing: 1 !important;
   font-size: 18px !important;
+}
+
+
+
+.centered-div {
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 
@@ -8146,7 +8153,7 @@ text-align: left;
 display: flex;
 margin-top: auto;
 margin-bottom: auto;
-padding-left: 40px;
+padding-left: 28px;
 }
 
 .itemdirectory-right {
