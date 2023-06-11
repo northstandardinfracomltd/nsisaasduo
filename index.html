@@ -84,6 +84,23 @@
           });
         }
       </script>
+      
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<script>
+  function handleOrientationChange() {
+    var orientation = window.orientation;
+    if (orientation === 90 || orientation === -90) {
+      document.body.style.display = 'none';
+      alert('Veuillez retourner à l\'orientation verticale.');
+    } else {
+      document.body.style.display = 'block';
+    }
+  }
+
+  window.addEventListener('orientationchange', handleOrientationChange);
+  window.addEventListener('load', handleOrientationChange);
+</script>
     </head>
 
     <body>
@@ -459,7 +476,7 @@
                         <p class="blue2">
                           <span style="color: #adbac7;">With our standard modules to stack like bricks, your SaaS is created fastly, </span>
                           <span style="color: #9b97ff;">or you can also start from scratch.</span>
-                          <span style="color: #adbac7;">Billed monthly as you go after an upfront fee.</span>
+                          <span class="hidemobileviewport" style="color: #adbac7;">Billed monthly as you go after an upfront fee.</span>
                  
               </p>
   
@@ -477,7 +494,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Forms and reports</span>
-<span style="color: #ff8ec6;">£0.01 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.01 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -489,7 +506,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Execute functions</span>
-<span style="color: #ff8ec6;">£0.01 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.01 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -502,7 +519,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Client frontend</span>
-<span style="color: #ff8ec6;">£0.02 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.02 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -515,7 +532,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Your domain name</span>
-<span style="color: #ff8ec6;">£0.00 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.00 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -527,7 +544,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Payment gateway</span>
-<span style="color: #ff8ec6;">£0.19 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.19 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -539,7 +556,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Statistics</span>
-<span style="color: #ff8ec6;">£0.00 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.00 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -551,7 +568,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Mobile apps</span>
-<span style="color: #ff8ec6;">£0.29 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.29 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -563,7 +580,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Transactional emails</span>
-<span style="color: #ff8ec6;">£0.01 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.01 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -575,7 +592,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Transactional SMS</span>
-<span style="color: #ff8ec6;">£0.07 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.07 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -587,7 +604,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">IA logics</span>
-<span style="color: #ff8ec6;">£0.04 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.04 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -599,7 +616,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Presentation website</span>
-<span style="color: #ff8ec6;">£0.04 /usage</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.04 /usage</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
@@ -611,7 +628,7 @@
 <div class="itemdirectory-left">
 <p class="saasduoentitled">
 <span style="color: rgb(163 255 170);">Dell local server</span>
-<span style="color: #ff8ec6;">£0.0001 /ping</span>
+<span class="hidemobileviewport" style="color: #ff8ec6;">£0.0001 /ping</span>
 </p>   
 </div> 
 <div class="itemdirectory-right">  
