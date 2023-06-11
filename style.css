@@ -2356,68 +2356,21 @@ purpleblockswww2001 {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .cube1 {
-    width: 140px !important;
-    font-family: "Saoecom2font" !important;
-    border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 14px !important;
-    margin-left: -5px;
-    outline: none !important;
-    transition-duration: 0s;
-    text-transform: lowercase;
+    margin-left: auto;
+    margin-right: auto;
+        width: 90% !important;
   }
 }
 
 @media (min-width: 100px) and (max-width: 819px) {
   .cube1 {
-    width: 130px !important;
-    font-family: "Saoecom2font" !important;
-    border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-left: 0px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 0px !important;
-    padding-right: 14px !important;
-    margin-left: -5px;
-    outline: none !important;
-    transition-duration: 0s;
-    text-transform: lowercase;
+    margin-left: auto;
+    margin-right: auto;
+        width: 90% !important;
   }
 }
 
-@media (min-width: 100px) and (max-width: 819px) {
-  .cube1:hover {
-    width: 130px !important;
-    font-family: "Saoecom2font" !important;
-    border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-left: 0px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 1px !important;
-    padding-right: 14px !important;
-    margin-left: -5px;
-    outline: none !important;
-    transition-duration: 0s;
-    text-transform: lowercase;
-  }
-}
+
 
 .cube0:hover {
   width: 122px !important;
@@ -2469,7 +2422,6 @@ purpleblockswww2001 {
 
 .cube-btn1 {
   margin-bottom: 20px;
-  max-width: 360px;
   border: 1px #1f6feb;
   border-radius: 10px 10px 10px 10px;
   /* margin-right: -2px; */
@@ -2484,7 +2436,8 @@ purpleblockswww2001 {
 
   padding-left: 22px !important;
   padding-right: 23px !important;
-  width: 361px !important;
+  max-width: 360px !important;
+  width: 100%;
   margin-left: 0px;
   padding-bottom: 11px !important;
   z-index: 4;
@@ -2513,23 +2466,10 @@ purpleblockswww2001 {
 
 @media (min-width: 100px) and (max-width: 819px) {
   .cube-btn1 {
-    margin-bottom: 20px;
-
-    border: 1px #316dca;
-    border-radius: 8px 8px 8px 8px;
-    /* margin-right: -2px; */
-    margin-top: -5px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
-    width: 100% !important;
-    max-width: 250px;
-    margin-left: 0px;
+  width: 90%;
+margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
   }
 }
 
