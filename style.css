@@ -1642,7 +1642,7 @@ img.navlogo {
 .navlogo {
     padding-top: 9px;
     line-height: 10px;
-    width: 135px !important;
+    width: 150px !important;
     padding-left: 9px;
 }
 
@@ -6135,7 +6135,7 @@ margin-top: 37px;
 
 .geniepost {
   text-decoration: none;
-  font-size: 77px !important;
+  font-size: 80px !important;
   cursor: default !important;
   font-family: "genie18" !important;
   color: rgb(255, 255, 255) !important;
