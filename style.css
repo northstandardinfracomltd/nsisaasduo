@@ -2152,22 +2152,7 @@ purpleblockswww2001 {
 }
 
 .btn1:hover {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border: 1px #316dca;
-  border-radius: 8px 0px 0px 8px;
-  margin-right: -2px;
-  text-decoration: none;
-  color: #cdd9e5 !important;
-  background: #316dca !important;
-  font-size: 16px !important;
-  height: 41px !important;
-  padding-top: 11px !important;
-    padding-bottom: 11px !important;
-  padding-left: 22px !important;
-  padding-right: 23px !important;
-    letter-spacing: 0 !important;
-
+  background: rgb(55 118 215) !important;
 }
 
 .btn2 {
@@ -2185,7 +2170,6 @@ purpleblockswww2001 {
   padding-left: 27px !important;
   padding-right: 27px !important;
     letter-spacing: 0 !important;
-
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -2205,20 +2189,7 @@ purpleblockswww2001 {
 }
 
 .btn2:hover {
-  border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 0px 0px 0px 0px !important;
-  margin-right: -2px !important;
-  text-decoration: none !important;
-  color: #adbac7 !important;
-  background: #3f464f !important;
-  font-size: 16px !important;
-  height: 41px !important;
-  padding-top: 10px !important;
-    padding-bottom: 11px !important;
-  padding-left: 27px !important;
-  padding-right: 27px !important;
-    letter-spacing: 0 !important;
-
+  background: #363c54 !important;
 }
 
 .btn3 {
@@ -2327,20 +2298,7 @@ purpleblockswww2001 {
 }
 
 .btn3:hover {
-  border: 1px solid rgb(205 217 229 / 10%) ;
-  border-radius: 0px 8px 8px 0px ;
-  margin-right: -2px ;
-  text-decoration: none ;
-  color: #adbac7 ;
-  background: #3f464f !important;
-  font-size: 16px ;
-  height: 41px ;
-  padding-top: 10px ;
-    padding-bottom: 11px ;
-  padding-left: 22px ;
-  padding-right: 23px ;
-    letter-spacing: 0 ;
-
+  background: #363c54 !important;
 }
 
 .btn1left:hover {
