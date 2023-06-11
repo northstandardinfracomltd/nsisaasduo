@@ -2427,25 +2427,24 @@ purpleblockswww2001 {
 }
 
 .cube1 {
-    width: 242px !important;
+    max-width: 360px !important;
+    width: 100%;
     font-family: "Saoecom2font" !important;
-    border-left: 0px solid rgb(205 217 229 / 10%) !important;
+    border-left: 1px solid rgb(205 217 229 / 10%) !important;
     border-top: 1px solid rgb(205 217 229 / 10%) !important;
     border-bottom: 1px solid rgb(205 217 229 / 10%) !important;
     border-right: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
+    border-radius: 10px 10px 10px 10px !important;
     text-decoration: none !important;
     color: #adbac7 !important;
     background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 0px !important;
-    padding-right: 14px !important;
-    margin-left: -5px;
+    font-size: 18px !important;
+    height: 51px !important;
     outline: none !important;
     transition-duration: 0s;
     text-transform: lowercase;
+  text-align: center !important;
+  margin-bottom: 3px;
 }
 
 
@@ -2549,33 +2548,16 @@ purpleblockswww2001 {
 
 
 .cube1:hover {
-    width: 242px;
-    font-family: "Saoecom2font" !important;
-    border-left: 0px solid rgb(205 217 229 / 10%) !important;
-    border-top: 1px solid rgb(205 217 229 / 10%) !important;
-    border-bottom: 1px solid rgb(205 217 229 / 10%) !important;
-    border-right: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 0px !important;
-    padding-right: 14px !important;
-    margin-left: -5px;
-    outline: none !important;
-    transition-duration: 0s;
-    text-transform: lowercase;
+    box-shadow: 0 0 0px 4px #008eff38;
 }
 
 .cube1::placeholder {
   text-decoration: none !important;
   color: #5e656b !important;
-  font-size: 16px !important;
+  font-size: 18px !important;
   font-family: "Saoecom2font" !important;
   text-transform: lowercase;
+  text-align: center !important
 }
 
 .cube2 {
