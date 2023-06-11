@@ -5630,8 +5630,8 @@ input[type="text"]:focus {
   line-height: 35px;
   margin-right: 7%;
   margin-left: 7%;
-  margin-top: 35px;
-  margin-bottom: 36px;
+margin-top: 30px;
+    margin-bottom: 21px;
 }
 
 .kalashcenter {
@@ -5736,30 +5736,30 @@ margin-top: 37px;
 }
 
 .regions-picker {
-display: inline-block !important;
-    padding: 0px 19px !important;
+    display: inline-block !important;
+    padding: 0px 25px !important;
     white-space: nowrap !important;
+    padding-top: 1px;
     vertical-align: middle !important;
     user-select: none !important;
     height: 41px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: #373e4729;
-    border: 0px solid #2c244700;
+    background: #347d39;
+    border: 0px solid #46874c;
     border-radius: 12px !important;
     text-decoration: none;
-    font-size: 20px !important;
+    font-size: 18px !important;
     cursor: pointer !important;
-    font-family: "genie9" !important;
-    color: rgb(255 128 99) !important;
-    line-height: 32px;
+    font-family: "Saoecom2font" !important;
+    color: rgb(254 255 255) !important;
+    line-height: 36px;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 45px;
-  
+    height: 52px;
 }
 
 .regions-picker:hover {
@@ -6645,8 +6645,8 @@ display: inline-block !important;
     line-height: 32px;
     margin-right: 10%;
     margin-left: 10%;
-margin-top: 45px;
-    margin-bottom: -8px;
+    margin-top: 37px;
+    margin-bottom: -10px;
 }
 
 
@@ -7602,28 +7602,33 @@ max-width: 1200px;
 
 
 .ficusbtn-nvidia-reply-elon {
-  text-decoration: none;
-  display: inline-block !important;
-  padding: 0px 20px !important;
-  font-size: 16px !important;
-  font-weight: var(--base-text-weight-medium, 500) !important;
-  line-height: 38px !important;
-  white-space: nowrap !important;
-  vertical-align: middle !important;
-  cursor: pointer !important;
-  user-select: none !important;
-  border: 1px solid #46874c;
-  border-radius: 8px;
-  font-family: "Saoecom2font" !important;
-  color: #feffff !important;
-  background-color: #347d39 !important;
-  height: 40px;
-  margin-top: 24.2px;
-  margin-right: 10px;
+    text-decoration: none;
+    display: inline-block !important;
+    /* padding: 0px 20px !important; */
+    font-size: 18px !important;
+    padding: 6px 24px 6px 24px;
+    font-weight: var(--base-text-weight-medium, 500) !important;
+    line-height: 38px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    border: 1px solid #46874c;
+    border-radius: 10px;
+    font-family: "Saoecom2font" !important;
+    color: #feffff !important;
+    background-color: #347d39 !important;
+    height: 52px;
+    margin-top: 24.2px;
+    margin-right: 10px;
 }
 
 
+.ficusbtn-nvidia-reply-elon:hover {
 
+box-shadow: 0 0 0px 4px #008eff38;
+
+}
 
 @media (min-width: 100px) and (max-width: 819px) {
   
