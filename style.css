@@ -4164,9 +4164,9 @@ button[type="submit"]:hover {
   padding-bottom: 9px;
 }
 
-
-
-
+.nvidia-ultra:hover {
+box-shadow: 0 0 0px 4px #008eff38;
+}
 
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -5752,28 +5752,30 @@ margin-top: 37px;
 }
 
 .regions-picker {
-  display: inline-block !important;
-  padding: 0px 20px !important;
-  white-space: nowrap !important;
-  vertical-align: middle !important;
-  user-select: none !important;
-  height: 41px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: #2c2447;
-  border: 0px solid #2c2447;
-  border-radius: 12px !important;
-  text-decoration: none;
-    font-size: 1.5rem !important;
+display: inline-block !important;
+    padding: 0px 19px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    user-select: none !important;
+    height: 41px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #373e4729;
+    border: 0px solid #2c244700;
+    border-radius: 12px !important;
+    text-decoration: none;
+    font-size: 20px !important;
     cursor: pointer !important;
     font-family: "genie9" !important;
-    color: rgb(255 162 208) !important;
+    color: rgb(255 128 99) !important;
     line-height: 32px;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 45px;
+  
 }
 
 .regions-picker:hover {
@@ -6659,8 +6661,8 @@ margin-top: 37px;
     line-height: 32px;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 30px;
-    margin-bottom: 40px;
+margin-top: 35px;
+    margin-bottom: -12px;
 }
 
 
