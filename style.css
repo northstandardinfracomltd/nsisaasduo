@@ -4252,26 +4252,30 @@ box-shadow: 0 0 0px 4px #008eff38;
 
 
 .blue1 {
-  color: #cdd9e5;
-  font-family: "genie14" !important;
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 26px;
-  cursor: default;
-  margin-left: 35px;
+    color: #cdd9e5;
+    font-family: "genie14" !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: -2px;
+    cursor: default;
+    /* margin-left: 35px; */
+    text-align: center;
 }
 
 .blue2 {
-  color: #cdd9e5;
-  font-family: "genie9" !important;
-  font-size: 20px;
-  text-transform: none;
-  margin-top: 35px;
-  margin-bottom: 34px;
-  cursor: default;
-  margin-left: 35px;
-  line-height: 33px;
+    color: #cdd9e5;
+    font-family: "genie9" !important;
+    font-size: 21px;
+    text-transform: none;
+    margin-top: 35px;
+    margin-bottom: 34px;
+    cursor: default;
+    /* margin-left: 35px; */
+    line-height: 33px;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
 }
 
 .blue-terms {
@@ -4931,10 +4935,10 @@ input[type="text"] {
     padding: 8px !important;
     font-size: 18px !important;
     letter-spacing: 1 !important;
-    border: solid 1px #454e57 !important;
+    border: solid 1px #454e5761 !important;
     border-radius: 10px !important;
     width: 100% !important;
-    background-color: #373e47 !important;
+    background-color: #161b22 !important;
     font-family: "Saoecom2font" !important;
     color: #adbac7 !important;
     margin-top: 29px;
@@ -4945,8 +4949,8 @@ input[type="text"] {
 }
 
 input::placeholder {
-font-family: "Saoecom2font" !important;
-    color: #5e656b !important;
+font-family: "genie9" !important;
+    color: #5e656b66 !important;
   letter-spacing: 1 !important;
   font-size: 18px !important;
 }
