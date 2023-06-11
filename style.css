@@ -1582,9 +1582,9 @@ footer {
   justify-content: right !important;
   margin-bottom: auto;
   margin-top: auto;
-  padding-top: 4px;
-  padding-bottom: 8px;
-  padding-right: 19px;
+padding-top: 12px;
+    padding-bottom: 8px;
+    padding-right: 26px;
   display: flex;
 }
 
