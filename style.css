@@ -5470,7 +5470,7 @@ input[type="text"]:focus {
   -moz-appearance: none;
   appearance: none;
   background: #347d39;
-  border: 0px solid #46874c;
+  border: 1px solid #46874c;
   border-radius: 12px !important;
   text-decoration: none;
   font-size: 18px !important;
