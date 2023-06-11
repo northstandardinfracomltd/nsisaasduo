@@ -1582,9 +1582,9 @@ footer {
   justify-content: right !important;
   margin-bottom: auto;
   margin-top: auto;
-padding-top: 12px;
+    padding-top: 28px;
     padding-bottom: 8px;
-    padding-right: 26px;
+    padding-right: 29px;
   display: flex;
 }
 
@@ -1611,8 +1611,8 @@ width: 85% !importantnav-left1 {
 }
 
 img.navlogo {
-  margin-top: -9px;
-  margin-left: 10px !important;
+margin-top: -6px;
+    margin-left: 13px !important;
 }
 
 .navlogo {
@@ -1620,6 +1620,12 @@ img.navlogo {
   line-height: 10px;
   width: 160px !important;
   padding-left: 9px;
+}
+
+
+.navlogo:hover {
+transform: scale(1.05);
+  transition-duration: 0.2s;
 }
 
 img.ficusmedia {
