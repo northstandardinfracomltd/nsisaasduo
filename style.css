@@ -1573,13 +1573,13 @@ footer {
 }
 
 .nav-left {
-  width: 50%;
+  width: 20%;
   text-align: left !important;
   justify-content: left !important;
 }
 
 .nav-right {
-  width: 50%;
+  width: 80%;
   text-align: right !important;
   justify-content: right !important;
   margin-bottom: auto;
@@ -1588,6 +1588,12 @@ footer {
     padding-bottom: 8px;
     padding-right: 29px;
   display: flex;
+}
+
+
+
+.maradona {
+  display: inline-block !important;
 }
 
 .nav-parent1 {
@@ -5492,7 +5498,7 @@ input[type="text"]:focus {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 22px;
+    margin-bottom: 55px;
   }
 }
 
@@ -7038,6 +7044,16 @@ input[type="text"]:focus {
 .pestacle {
   margin-left: 20% !important;
   margin-right: 20% !important;
+}
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) {
+.pestacle {
+  margin-left: 12% !important;
+  margin-right: 12% !important;
+  margin-bottom: -10px !important;
 }
 }
 
