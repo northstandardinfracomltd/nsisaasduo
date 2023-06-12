@@ -6576,6 +6576,8 @@ input[type="text"]:focus {
   }
 }
 
+
+@media (min-width: 100px) and (max-width: 819px) {
 .cristalinefooterlink {
   color: #ff8ec6 !important;
   font-size: 18px !important;
@@ -6583,10 +6585,18 @@ input[type="text"]:focus {
   font-family: "genie9" !important;
   text-decoration: none;
 }
+}
+
+.cristalinefooterlink {
+  color: #ff8ec6 !important;
+  font-size: 14px ;
+  cursor: pointer !important;
+  font-family: "genie9" !important;
+  text-decoration: none;
+}
 
 .cristalinefooterlink:hover {
   color: #ff8ec6 !important;
-  font-size: 14px !important;
   cursor: pointer !important;
   font-family: "genie9" !important;
   text-decoration: none;
@@ -6638,8 +6648,8 @@ input[type="text"]:focus {
     height: 120px !important;
     padding-top: 5px;
     padding-bottom: 79px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
