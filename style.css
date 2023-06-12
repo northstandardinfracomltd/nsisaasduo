@@ -2501,22 +2501,10 @@ purpleblockswww2001 {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .cube-btn1 {
-    margin-bottom: 20px;
-
-    border: 1px #316dca;
-    border-radius: 8px 8px 8px 8px;
-    /* margin-right: -2px; */
-    margin-top: -5px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
-    width: 79.8% !important;
-    margin-left: 0px;
+  width: 90%;
+margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
   }
 }
 
@@ -5106,14 +5094,7 @@ input[type="text"]:focus {
   white-space: nowrap !important;
 }
 
-.resterencouple {
-  white-space: nowrap !important;
-  margin-bottom: -22px;
-  max-width: 360px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+
 
 .explain1 {
   width: 40%;
@@ -5556,7 +5537,7 @@ input[type="text"]:focus {
     margin-left: auto;
     margin-right: auto;
     margin-top: -10px;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
   }
 }
 
