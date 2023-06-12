@@ -5876,8 +5876,8 @@ input[type="text"]:focus {
     font-family: "genie9" !important;
     color: rgb(255, 255, 255) !important;
     line-height: 1.6;
-    margin-right: 9%;
-    margin-left: 9%;
+    margin-right: 3%;
+    margin-left: 3%;
     margin-top: 33px;
     margin-bottom: 20px;
     text-align: center !important;
@@ -6566,19 +6566,19 @@ input[type="text"]:focus {
     /* margin-right: auto; */
     text-align: center !important;
     margin-top: 29px;
-    font-size: 14px !important;
+    font-size: 18px !important;
     cursor: pointer !important;
     font-family: "genie9" !important;
     color: #7d8590 !important;
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-    line-height: 22px !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    line-height: 24px !important;
   }
 }
 
 .cristalinefooterlink {
   color: #ff8ec6 !important;
-  font-size: 14px !important;
+  font-size: 18px !important;
   cursor: pointer !important;
   font-family: "genie9" !important;
   text-decoration: none;
@@ -6620,9 +6620,26 @@ input[type="text"]:focus {
     margin-bottom: -17px;
     background: #2d333b;
     display: flex;
-    height: 115px !important;
+    height: 145px !important;
     padding-top: 5px;
     padding-bottom: 79px;
+  }
+}
+
+
+@media (min-width: 100px) and (max-width: 819px) and (orientation: landscape) {
+  .catapult {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -17px;
+    background: #2d333b;
+    display: flex;
+    height: 120px !important;
+    padding-top: 5px;
+    padding-bottom: 79px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -7021,23 +7038,6 @@ input[type="text"]:focus {
 
 @media (min-width: 100px) and (max-width: 819px) {
   .ficusbtn-nvidia-reply-elon {
-    text-decoration: none;
-    display: inline-block !important;
-    padding: 0px 20px !important;
-    font-size: 16px !important;
-    font-weight: var(--base-text-weight-medium, 500) !important;
-    line-height: 38px !important;
-    white-space: nowrap !important;
-    vertical-align: middle !important;
-    cursor: pointer !important;
-    user-select: none !important;
-    border: 1px solid #46874c;
-    border-radius: 8px;
-    font-family: "Saoecom2font" !important;
-    color: #feffff !important;
-    background-color: #347d39 !important;
-    height: 40px;
-    margin-top: 24.2px;
     margin-right: auto !important;
     margin-left: auto !important;
   }
@@ -7183,6 +7183,31 @@ input[type="text"]:focus {
   padding-bottom: 15px;
 }
 
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.login-door {
+  width: 93%;
+  max-width: 500px;
+  display: block;
+  text-align: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #d9e1ec;
+  margin-left: auto;
+  margin-right: auto;
+  background: #22272e;
+  border-radius: 12px 12px 12px 12px;
+  border-top: 1px solid #454c56;
+  border-bottom: 1px solid #454c56;
+  border-left: 1px solid #454c56;
+  border-right: 1px solid #454c56;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+}
 .resterencouple2 {
   white-space: nowrap !important;
   margin-bottom: -22px;
@@ -7267,43 +7292,13 @@ input[type="text"]:focus {
 
 @media (min-width: 100px) and (max-width: 819px) {
   .cube12 {
-    width: 100% !important;
-    font-family: "Saoecom2font" !important;
-    border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-left: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 8px 8px 8px 8px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 15px !important;
-    padding-right: 14px !important;
-    outline: none !important;
-    transition-duration: 0s;
-    text-transform: lowercase;
+
   }
 }
 
 @media (min-width: 100px) and (max-width: 819px) {
   .cube12:hover {
-    width: 100% !important;
-    font-family: "Saoecom2font" !important;
-    border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-left: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 8px 8px 8px 8px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 15px !important;
-    padding-right: 14px !important;
-    outline: none !important;
-    transition-duration: 0s;
-    text-transform: lowercase;
+
   }
 }
 
@@ -7326,39 +7321,13 @@ input[type="text"]:focus {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .cube-btn12 {
-    margin-bottom: 20px;
-    border: 1px #316dca;
-    border-radius: 8px 8px 8px 8px;
-    margin-top: -18px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 41px !important;
-    padding-top: 11px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
-    width: 100% !important;
-    padding-bottom: 11px !important;
+
   }
 }
 
 @media (min-width: 100px) and (max-width: 819px) {
   .cube-btn12 {
-    margin-bottom: 20px;
-    border: 1px #316dca;
-    border-radius: 8px 8px 8px 8px;
-    margin-top: -18px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 41px !important;
-    padding-top: 11px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
-    width: 100% !important;
-    padding-bottom: 11px !important;
+
   }
 }
 
@@ -7389,17 +7358,7 @@ input[type="text"]:focus {
 
 @media (min-width: 100px) and (max-width: 819px) {
   .cristalinefooter2 {
-    text-decoration: none;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center;
-    margin-top: 37px;
-    font-size: 14px !important;
-    cursor: default !important;
-    font-family: "genie9" !important;
-    color: #7d8590 !important;
-    padding-right: 40px;
-    padding-left: 40px;
+
   }
 }
 
