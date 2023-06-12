@@ -1546,6 +1546,13 @@ footer {
   padding-right: 3px;
 }
 
+
+@media (min-width: 100px) and (max-width: 819px) {
+.main-nav {
+  display: none !important;
+}
+}
+
 @media (min-width: 100px) and (max-width: 819px) {
   .main-nav {
     display: flex;
@@ -1578,6 +1585,39 @@ footer {
   justify-content: left !important;
 }
 
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.mobillogoonly {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 190px !important;
+  margin-bottom: -60px;
+  margin-top: 42px;
+  max-width: 190px;
+  display: block;
+  }
+}
+
+
+@media (min-width: 819px) {
+.mobillogoonly {
+  display: none !important; 
+  }
+}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.logo {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+  text-align: center;
+  display: block;
+  }
+}
+
 .nav-right {
   width: 80%;
   text-align: right !important;
@@ -1590,6 +1630,14 @@ footer {
   display: flex;
 }
 
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.nav-right {
+  display: none !important;
+}
+}
 
 
 .maradona {
